@@ -1,4 +1,4 @@
-div, body {
+div, body{
   margin: 0;
   padding: 0;
   border: 0;
@@ -14,7 +14,10 @@ div, body {
 
 #minesweeper {
   width: 306px;
-  margin: 0 auto;
+  margin: 40px auto;
+}
+h1 {
+  text-align: center;
 }
 
 .group:after {
@@ -72,6 +75,8 @@ div, body {
   transform: translateY(-50%);
   background: white;
   border-radius: 5px;
+  text-align: center;
+  font-size: 24px;
 }
 .modal-close {
   position: absolute;

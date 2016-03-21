@@ -14,6 +14,7 @@ var Modal = React.createClass({
       <section id="modal" className={this.getClassName()}>
         <article className="modal-content">
           You have {this.props.gameState} the game!!
+          <br></br>
           <button onClick={this.props.restartGame}>Play Again!</button>
         </article>
         <div className="modal-screen"></div>

@@ -5,7 +5,10 @@ var React = require('react'),
 var ReactMinesweeper = React.createClass({
   render: function () {
     return (
-      <Game />
+      <div>
+        <h1>Minesweeper!</h1>
+        <Game />
+      </div>
     );
   }
 });
